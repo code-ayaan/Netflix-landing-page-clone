@@ -6,6 +6,7 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #240b36, #c31432);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif ;
 
 }
 
@@ -145,135 +146,275 @@ input {
 
 
 
+
 }
 
 .trending h1 {
     font-size: 32px;
     color: gainsboro;
     font-weight: 700;
-     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     margin-left: 160px;
 }
 
-.images{
+.images {
     display: flex;
-    flex-direction:row ;
+    flex-direction: row;
     gap: 30px;
     justify-content: center;
-    
-    
-    
-    
-    
+
+
+
+
+
 }
 
-.one{
+.one {
 
     width: 130px;
     height: 250px;
     background-image: url(assets/images/one.webp);
-    background-size:cover ;
+    background-size: cover;
     cursor: pointer;
     border-radius: 15px;
-    transition:  0.3s ease-in-out;
-   
-    
-    
+    transition: 0.3s ease-in-out;
+
+
+
 }
-.one:hover{
+
+.one:hover {
     transform: scale(1.1);
 }
-.two{
-    
+
+.two {
+
     width: 130px;
     height: 250px;
     background-image: url(assets/images/two.webp);
-    background-size:cover;
+    background-size: cover;
     cursor: pointer;
     border-radius: 15px;
     transition: 0.3s ease-in-out;
 }
 
-.two:hover{
+.two:hover {
     transform: scale(1.1);
 }
-.three{
-    
+
+.three {
+
     width: 130px;
     height: 250px;
     background-image: url(assets/images/three.webp);
-    background-size:cover;
+    background-size: cover;
     cursor: pointer;
     border-radius: 15px;
     transition: 0.3s ease-in-out;
 }
-.three:hover{
-    transform: scale(1.1);
-}
-.four{
-    
-    width: 130px;
-    height: 250px;
-    background-image: url(assets/images/four.webp);
-    background-size:cover;
-    cursor: pointer;
-    border-radius: 15px;
-    transition: 0.3s ease-in-out;
-}
-.four:hover{
-    transform: scale(1.1);
-}
-.five{
-    
-    width: 130px;
-    height: 250px;
-    background-image: url(assets/images/five.webp);
-    background-size:cover;
-    cursor: pointer;
-    border-radius: 15px;
-    transition: 0.3s ease-in-out;
-}
-.five:hover{
-    transform: scale(1.1);
-}
-.six{
-    
-    width: 130px;
-    height: 250px;
-    background-image: url(assets/images/six.webp);
-    background-size:cover;
-    cursor: pointer;
-    border-radius: 15px;
-    transition: 0.3s ease-in-out;
-}
-.six:hover{
+
+.three:hover {
     transform: scale(1.1);
 }
 
-.more{
+.four {
+
+    width: 130px;
+    height: 250px;
+    background-image: url(assets/images/four.webp);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.four:hover {
+    transform: scale(1.1);
+}
+
+.five {
+
+    width: 130px;
+    height: 250px;
+    background-image: url(assets/images/five.webp);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.five:hover {
+    transform: scale(1.1);
+}
+
+.six {
+
+    width: 130px;
+    height: 250px;
+    background-image: url(assets/images/six.webp);
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.six:hover {
+    transform: scale(1.1);
+}
+
+.more {
     color: azure;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     font-size: 32px;
     margin-left: 160px;
 }
 
-.choose{
+.choose {
     display: flex;
     flex-direction: row;
     gap: 30px;
     justify-content: center;
 }
 
-.box2{
+.box2 {
     /* display: grid; */
-    border: 2px solid gray;
+    border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     height: 120px;
-    width: 190px;
+    width: 200px;
     color: whitesmoke;
     /* background: none; */
-    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     text-align: center;
-  background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.ask {
+    color: azure;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 32px;
+    margin-left: 160px;
+}
+
+/* .dropdown{
+    max-width: 100%;
+    
+} */
+
+
+
+.Questions {
+
+    width: 74%;
+    height: fit-content;
+    text-align: left;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: azure;
+    margin-left: 160px;
+    font-size: large;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-weight: bolder;
+    border: none;
+
+
+
+
+}
+
+.ready {
+    color: azure;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.ready_input {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.ready_input button {
+    height: 55px;
+    border-radius: 33px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    width: 200px;
+    cursor: pointer;
+}
+
+.call {
+    color: rgba(255, 255, 255, 0.7);
+
+    margin-left: 160px;
+    margin-top: 30px;
+    font-size: large;
+}
+
+.call,
+a {
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer ul{
+    margin-top: 30px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 160px;
+    
+    row-gap: 30px;
+    
+    
+
+
+}
+.footer li{
+    list-style: none;
+    display: flex;
+    flex: 0 0 25%;
+}
+
+.select select{
+    margin-left: 160px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: azure;
+    width: 130px;
+    text-align: center;
+    font-size: large;
+
+}
+
+option{
+    color: black;
+}
+
+.india{
+    color: azure;
+    margin-left: 160px;
+    font-family: inherit;
+    margin-top: 30px;
+
+
+}
+
+.end{
+    color: azure;
+    margin-left: 160px;
+    margin-top: 30px;
     
 }
+
